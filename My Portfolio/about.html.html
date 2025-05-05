@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me | Monjolaoluwa Runsewe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background-image: url('image.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: #111827;
+      color: #fff;
+      padding: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 10;
+      left: 0;
+      right: 0;
+    }
+
+    nav a {
+      color: #e5e7eb;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #3b82f6;
+    }
+
+    .container {
+      padding: 120px 5vw 50px 5vw; /* Increased padding to account for the fixed header */
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+      flex-grow: 1; /* This will allow the main content to take up remaining space */
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      margin-bottom: 1rem;
+      color: white;
+    }
+
+    p {
+      margin-bottom: 1.5rem;
+      font-size: 1.1rem;
+      color: white;
+    }
+
+    footer {
+      height: 100px;
+      background-color: #333;
+      color: white;
+      text-align: center;
+      line-height: 100px;
+      position: relative;
+      width: 100%;
+      flex-shrink: 0;
+    }
+
+    /* Media Queries for smaller screens */
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        padding: 1rem;
+      }
+
+      .container {
+        padding: 150px 3vw;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>Monjola Runsewe</h2>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>About Me</h1>
+    <p>Hi!</p>
+    <p>
+      I’m Monjolaoluwa Runsewe. I’m a creative, driven student with a passion for blending tech, storytelling, and leadership. I believe in the power of words, visuals, and code to influence and inspire.
+    </p>
+    <p>
+      I’m starting my undergraduate journey in Computer Science at Alabama State University, where I plan to stand out, academically, with service and through leadership. I bring energy and intentionality to the table.
+    </p>
+    <p>
+      This site is a glimpse into my world, where tech meets heart, and potential turns into purpose.
+    </p>
+  </main>
+
+  <footer>
+    © 2025 Monjola Runsewe | Designed with ambition
+  </footer>
+
+</body>
+</html>
